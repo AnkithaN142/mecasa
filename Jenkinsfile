@@ -18,11 +18,5 @@ pipeline {
             }
         }
     }
-    post
-    {
-        always
-        {
-            emailext body: 'cutie lovely pretty', subject: 'Testing', to: 'ankitharaj142@gmail.com'
-        }
-    }
+    
 }
